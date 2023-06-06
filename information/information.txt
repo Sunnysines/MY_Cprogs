@@ -1,0 +1,27 @@
+BEFORE YOU StART my C program there some settings that i have to configure.
+i have written it step by step.... so that i find it easy to do it one by one..
+HAPPY CODING ;)
+
+1. install gcc and wingc for windows... 
+2. for linux it would be present as default compiler as i dont have to worry about the path 
+as you will find it alredy configured in linux ..... but for windows i have to configure it manaually
+configure it.(from step 3. onwards my steps will be based on linux os system..)
+3. install vscode and then the following extentions for C/C++ and code runner.
+4. check the intregated terminal settings as well... in the code runner settings
+5. write a c programe then go to the run and debug section in vs code and there click on run and debug
+then you will find two files created in your workspace folder that is launch.json and tasks.json....
+6. then in launch.json click on add configuration were i have choose "(gdb) Launch" option and replace 
+default "programe" section with task.json s args section of this thing "${fileDirname}/${fileBasenameNoExtension}"
+if i cant understand then i can refer to this video :"https://www.youtube.com/watch?v=9pjBseGfEPU&list=PLxF994db46ADCj8yGxeD5x5Np8Z5sryJq&index=6"
+After watching every thing will be clear.....
+>>NOTE: in WE HAVE TO FIRST COMPILE AND THEN WE CAN EXECUCUTE THE PROGRAM
+7. for external termianl i have to change the "externalConsole:" from false to true
+and then compile and run the program....
+
+you can also set up this thing but not compulsory as all the task can be done using code runner
+rather this thing will have limitations hence be satisfied with external terminal by code runnner.
+
+HERE IS THE VIDEO: "https://www.youtube.com/watch?v=Jhf2755Okak&list=LL&index=2"
+
+ENJOY LIFE ;}
+
